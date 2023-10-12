@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.34031.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Tumakov", "DZ_Tumakov\DZ_Tumakov.csproj", "{0A70D875-AEB3-4EAC-8567-7F8E613E1318}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Tumakov2", "DZ_Tumakov2\DZ_Tumakov2.csproj", "{95B08132-4D77-4845-A10A-BB8D43BCE1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Tumakov3", "DZ_Tumakov3\DZ_Tumakov3.csproj", "{E0AE43B7-F38D-4783-89E1-9E9A68E346DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0A70D875-AEB3-4EAC-8567-7F8E613E1318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A70D875-AEB3-4EAC-8567-7F8E613E1318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A70D875-AEB3-4EAC-8567-7F8E613E1318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B08132-4D77-4845-A10A-BB8D43BCE1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B08132-4D77-4845-A10A-BB8D43BCE1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B08132-4D77-4845-A10A-BB8D43BCE1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B08132-4D77-4845-A10A-BB8D43BCE1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AE43B7-F38D-4783-89E1-9E9A68E346DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AE43B7-F38D-4783-89E1-9E9A68E346DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AE43B7-F38D-4783-89E1-9E9A68E346DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AE43B7-F38D-4783-89E1-9E9A68E346DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

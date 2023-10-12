@@ -6,6 +6,7 @@ namespace DZ_Tumakov
 {
     class Program
     {
+        /*Написать программу, которая вычисляет число гласных и согласных букв в файле. Имя файла передавать как аргумент в функцию Main.*/
         static void Main(string[] args)
         {
             var appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
@@ -34,6 +35,7 @@ namespace DZ_Tumakov
                     Glas++;
                 }
             }
+            Console.WriteLine("Упражнение 5.1 Тумаков - Написать программу, которая вычисляет число гласных и согласных букв в файле. Имя файла передавать как аргумент в функцию Main.");
             Console.WriteLine($"Количество согласных букв в файле равно - {Sogl} \nКоличество гласных букв в файле равно - {Glas}");
             Console.ReadKey();
 
