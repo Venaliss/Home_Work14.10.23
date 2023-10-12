@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
 
 namespace DZ_Tumakov
 {
@@ -7,8 +8,10 @@ namespace DZ_Tumakov
     {
         static void Main(string[] args)
         {
-            
-            string str = File.ReadAllText("C:\\Users\\fifif\\source\\repos\\Home_Work_14_10_2023\\Tumakov.txt");
+            var appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var relativePath = @"Tumakov.txt";
+            var fullPath = Path.Combine(appDir, relativePath);
+            string str = File.ReadAllText(fullPath);
             char[] ArrayChars = new char[str.Length];
 
             for (int j = 0; j < str.Length - 1; j++)
@@ -22,11 +25,11 @@ namespace DZ_Tumakov
             string StrGlas = "EeYyUuIiOoAaУуЕеЫыАаОоЭэЯяИиЮю";
             foreach (char arg in ArrayChars)
             {
-                if (StrSogl.Contains(Convert.ToString(arg))) 
+                if (StrSogl.Contains(Convert.ToString(arg)))
                 {
                     Sogl++;
                 }
-                else if (StrGlas.Contains(Convert.ToString(arg))) 
+                else if (StrGlas.Contains(Convert.ToString(arg)))
                 {
                     Glas++;
                 }
