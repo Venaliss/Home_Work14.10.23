@@ -36,6 +36,7 @@ namespace DZ_Tumakov
             }
             Console.WriteLine($"Количество согласных букв в файле равно - {Sogl} \nКоличество гласных букв в файле равно - {Glas}");
             Console.ReadKey();
+
         }
     }
 }
